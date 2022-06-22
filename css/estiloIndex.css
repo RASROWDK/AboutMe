@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+body{
+    background-image:url("../midia/7113621.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.container-inicio{
+    border: 2px solid rgba(255,255,255,0,1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    backdrop-filter: blur(47.4479px);
+    margin-top: 100px;
+    width: 1100px;
+    height: 860px;
+    border-radius: 10px;   
+}
+.navbar-inicio{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#titulo-tela-inicio{
+    margin-bottom: 20px;
+    font-size: 70px;
+    letter-spacing: 2px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.card-inicio{
+    display: flex;
+    align-items: center;
+}
+.card-imagem-inicio{
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+h2{
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+}
+.nav-itens{
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}
+.nav-itens:hover{
+    background: linear-gradient(90deg, hsla(336, 79%, 53%, 1) 30%, hsla(18, 100%, 62%, 1) 65%);
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.22);
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+#contato-icone{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+#imagem-inicio{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-top: 10px;
+    width: 300px ;
+    height: 300px;
+    border-radius: 50%;
+}
+p{
+    font-size: 27px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}
+.card-body-inicio {
+    margin: 20px 20px ;
+    margin-top: 40px;
+    text-align: center;
+}
+.footer-inicio {
+    text-align: center;
+}
+.conhecimentos-icones{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 100px;
+    height:100px ;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+    border: 1px solid white;
+}
+@media screen and  (max-width: 1000px){
+    .container-inicio{
+        width: 380px;
+        height: 900px;  
+    }
+    #titulo-tela-inicio{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    .nav-itens{
+       font-size: 9px;
+       margin-right: 10px;
+       margin-left: 10px;
+       display: flex;
+       flex-direction: column;
+    }
+    .card-inicio{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-imagem-inicio{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .card-body-inicio{
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    #imagem-inicio{
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    p{
+        font-size: 15px;
+        font-family: 'Barlow', sans-serif;
+        color: white;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .conhecimentos-icones{
+        width: 60px;
+        height: 60px;
+    }
+    #contato-icone{
+        width: 20px;
+        height: 20px;
+    }
+}

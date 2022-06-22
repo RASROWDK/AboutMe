@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+body{
+    background-image:url("../midia/7113621.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.container-leituras{
+    border: 2px solid rgba(255,255,255,0,1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    backdrop-filter: blur(47.4479px);
+    margin-top: 100px;
+    width: 1100px;
+    height: 860px;
+    border-radius: 10px;
+}
+.navbar-leituras{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#titulo-tela-leituras{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 70px;
+    letter-spacing: 2px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.nav-itens{
+    text-decoration: none;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Barlow', sans-serif;
+    color: white;    
+}
+.nav-itens:hover{
+    text-decoration: none;
+    background: linear-gradient(90deg, hsla(336, 79%, 53%, 1) 30%, hsla(18, 100%, 62%, 1) 65%);
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.22);
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.texto{
+    padding: 5px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+.subtitulo{
+    font-size: 35px;
+}
+img{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+@media screen and (max-width: 1000px){
+    .container-leituras{
+        width: 380px;
+        height: 900px;  
+    }
+    .nav-itens{
+        font-size: 9px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .texto{
+        font-size:8px;
+    }
+    .subtitulo{
+        margin-top: 200px;
+        font-size: 15px;
+    }
+    img{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    #titulo-tela-leituras{
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+}
